@@ -1,0 +1,199 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteBase /
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+
+
+Redirect 301 /responsive-designing https://www.deaninfotech.com
+Redirect 301 /seo-services https://www.deaninfotech.com
+Redirect 301 /kentico-development https://www.deaninfotech.com/.net-development-company
+Redirect 301 /drupal-development https://www.deaninfotech.com
+Redirect 301 /wordpress-development https://www.deaninfotech.com/wordpress-development-Company
+Redirect 301 /wordpress.html https://www.deaninfotech.com/wordpress-development-Company
+Redirect 301 /ios8-development https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /opencart-development https://www.deaninfotech.com/
+Redirect 301 /email-marketing https://www.deaninfotech.com/
+Redirect 301 /content-marketing https://www.deaninfotech.com/
+Redirect 301 /quality-commitments https://www.deaninfotech.com/quality-assurance
+Redirect 301 /android-design https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /development-methodology https://www.deaninfotech.com/
+Redirect 301 /joomla-development https://www.deaninfotech.com/
+Redirect 301 /custom-ecommerce https://www.deaninfotech.com/
+Redirect 301 /image-editing https://www.deaninfotech.com/
+Redirect 301 /hire-wordpress-developer https://www.deaninfotech.com/wordpress-development-Company
+Redirect 301 /dean-e-booking https://www.deaninfotech.com/
+Redirect 301 /android.html https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /android-app-development https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /wcf-wpf-development https://www.deaninfotech.com/
+Redirect 301 /iphone-game-development https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /iOS.html https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /android-tab-development https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /laravel.html https://www.deaninfotech.com/laravel-development-company
+Redirect 301 /laravel-web-development https://www.deaninfotech.com/laravel-development-company
+Redirect 301 /hire-web-designer https://www.deaninfotech.com/
+Redirect 301 /hire-iphone-app-developer https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /hire-android-app-developer https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /android-l-app-development https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /hire-digital-marketing-specialist https://www.deaninfotech.com/
+Redirect 301 /asp-net.html https://www.deaninfotech.com/asp.net-development-company
+Redirect 301 /asp-net-mvc.html https://www.deaninfotech.com/asp.net-development-company
+Redirect 301 /asp-dot-net-development https://www.deaninfotech.com/asp.net-development-company
+
+Redirect 301 /javascript.html https://www.deaninfotech.com/javascript-development-company
+Redirect 301 /android-games-development https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /android.html https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /mobile.html https://www.deaninfotech.com/mobile-application-development
+Redirect 301 /application-development https://www.deaninfotech.com/mobile-application-development
+Redirect 301 /application-development.html https://www.deaninfotech.com/mobile-application-development
+
+Redirect 301 /article-writing https://www.deaninfotech.com/
+Redirect 301 /blog-writing https://www.deaninfotech.com/blog
+Redirect 301 /c-sharp-vb-dot-net-development https://www.deaninfotech.com/.net-development-company
+Redirect 301 /cake-php-development https://www.deaninfotech.com/php-development-company
+Redirect 301 /career https://www.deaninfotech.com/career.html
+Redirect 301 /classic-asp https://www.deaninfotech.com/.net-development-company
+Redirect 301 /codeigniter.html https://www.deaninfotech.com/codeigniter-development-company
+Redirect 301 /codeigniter-development https://www.deaninfotech.com/codeigniter-development-company
+Redirect 301 /contact-us https://www.deaninfotech.com/contact
+Redirect 301 /enterprise-solution.html https://www.deaninfotech.com/enterprise-software-development
+Redirect 301 /hybrid.html https://www.deaninfotech.com/hybrid-app-development-company
+Redirect 301 /digital-marketing-services https://www.deaninfotech.com/
+Redirect 301 /digital-marketing-services.html https://www.deaninfotech.com/
+Redirect 301 /dot-net-development https://www.deaninfotech.com/.net-development-company
+Redirect 301 /dot-net-entity-framework-development https://www.deaninfotech.com/.net-development-company
+Redirect 301 /dot-net.html https://www.deaninfotech.com/.net-development-company
+Redirect 301 /dot-net-mvc-framework-development https://www.deaninfotech.com/asp.net-mvc-development-company
+Redirect 301 /dot-net-nuke.html https://www.deaninfotech.com/dotnetnuke-development-company
+Redirect 301 /dotnetnuke-development https://www.deaninfotech.com/dotnetnuke-development-company
+Redirect 301 /ebooking https://www.deaninfotech.com/
+Redirect 301 /ecommerce-development https://www.deaninfotech.com/
+Redirect 301 /ecommerce-website-development.html https://www.deaninfotech.com/
+Redirect 301 /erp-solutions-provider-company https://www.deaninfotech.com/
+Redirect 301 /hire-android-developer https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /hire-aspnet-developer https://www.deaninfotech.com/asp.net-development-company
+Redirect 301 /hire-cake-php-developer https://www.deaninfotech.com/php-development-company
+Redirect 301 /hire-content-writer https://www.deaninfotech.com/
+Redirect 301 /hire-drupal-developer https://www.deaninfotech.com/
+Redirect 301 /hire-ecommerce-developer https://www.deaninfotech.com/
+Redirect 301 /hire-iphone-developer https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /hire-joomla-developer https://www.deaninfotech.com/
+Redirect 301 /hire-magento-developer https://www.deaninfotech.com/
+Redirect 301 /hire-php-developer https://www.deaninfotech.com/php-development-company
+Redirect 301 /ios7-development https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /iphone-application-development https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /iphone-design https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /logo-designing https://www.deaninfotech.com/
+Redirect 301 /magento-developement https://www.deaninfotech.com/
+Redirect 301 /nopcommerce.html https://www.deaninfotech.com/nopcommerce-development-company
+Redirect 301 /nopcommerce-development https://www.deaninfotech.com/nopcommerce-development-company
+Redirect 301 /pay-per-click https://www.deaninfotech.com/
+Redirect 301 /php.html https://www.deaninfotech.com/php-development-company
+Redirect 301 /php-development https://www.deaninfotech.com/php-development-company
+Redirect 301 /psd-html-development https://www.deaninfotech.com/
+Redirect 301 /reputation-management https://www.deaninfotech.com/
+Redirect 301 /request-proposal https://www.deaninfotech.com/
+Redirect 301 /responsive-website-design https://www.deaninfotech.com/
+Redirect 301 /salesforce.html https://www.deaninfotech.com/salesforce-development-services
+Redirect 301 /salesforce-development https://www.deaninfotech.com/salesforce-development-services
+Redirect 301 /sharepoint-development https://www.deaninfotech.com/
+Redirect 301 /smo-services https://www.deaninfotech.com/
+Redirect 301 /synopsis-writing https://www.deaninfotech.com/
+Redirect 301 /umbraco-development https://www.deaninfotech.com/umbraco-development-company
+Redirect 301 /umbraco.html https://www.deaninfotech.com/umbraco-development-company
+Redirect 301 /web-designing https://www.deaninfotech.com/
+Redirect 301 /windows-application-development https://www.deaninfotech.com/
+Redirect 301 /Woo%20commerce%20Development https://www.deaninfotech.com/
+Redirect 301 /woo-commerce-development https://www.deaninfotech.com/
+Redirect 301 /yii-development https://www.deaninfotech.com/
+Redirect 301 /zend-development https://www.deaninfotech.com/
+Redirect 301 /c-sharp-vb-dot-net-development https://www.deaninfotech.com/.net-development-company
+Redirect 301 /Portfolio https://www.deaninfotech.com/portfolio
+Redirect 301 /portfolio.html https://www.deaninfotech.com/portfolio
+Redirect 301 /solutions https://www.deaninfotech.com
+Redirect 301 /php-development-company.html https://www.deaninfotech.com/php-development-company
+Redirect 301 /laravel-development-company.html https://www.deaninfotech.com/laravel-development-company
+Redirect 301 /codeigniter-development-company.html https://www.deaninfotech.com/codeigniter-development-company
+Redirect 301 /wordpress-development-Company.html https://www.deaninfotech.com/wordpress-development-Company
+Redirect 301 /.net-development-company.html https://www.deaninfotech.com/.net-development-company
+Redirect 301 /asp.net-development-company.html https://www.deaninfotech.com/asp.net-development-
+Redirect 301 /asp.net-mvc-development-company.html https://www.deaninfotech.com/asp.net-mvc-development-company
+Redirect 301 /umbraco-development-company.html https://www.deaninfotech.com/umbraco-development-company
+Redirect 301 /nopcommerce-development-company.html https://www.deaninfotech.com/nopcommerce-development-company
+Redirect 301 /dotnetnuke-development-company.html https://www.deaninfotech.com/dotnetnuke-development-company
+Redirect 301 /mobile-application-development.html https://www.deaninfotech.com/mobile-application-development
+Redirect 301 /android-app-development-company.html https://www.deaninfotech.com/android-app-development-company
+Redirect 301 /ios-app-development-company.html https://www.deaninfotech.com/ios-app-development-company
+Redirect 301 /hybrid-app-development-company.html https://www.deaninfotech.com/hybrid-app-development-company
+Redirect 301 /salesforce-development-services.html https://www.deaninfotech.com/salesforce-development-services
+Redirect 301 /blog/6-tips-boost-sales-ecommerce-websites https://www.deaninfotech.com/blog/6-tips-how-to-boost-sales-on-ecommerce-websites
+Redirect 301 /blog/instagram-pinterest-really-effective-web-traffic https://www.deaninfotech.com/blog/how-to-use-whatsapp-and-instagram-for-your-business-growth
+Redirect 301 /blog/think-best-way-design-website-ux-ui-design https://www.deaninfotech.com/blog/what-do-you-think-is-the-best-way-to-design-a-website-ux-or-ui-design
+
+
+<IfModule mod_expires.c>
+    ## Enable expiration control
+    ExpiresActive On
+
+    ## CSS and JS expiration: 1 week after request
+    ExpiresByType text/css "now plus 1 week"
+    ExpiresByType application/javascript "now plus 1 week"
+    ExpiresByType application/x-javascript "now plus 1 week"
+
+    ## Image files expiration: 1 month after request
+    ExpiresByType image/bmp "now plus 1 month"
+    ExpiresByType image/gif "now plus 1 month"
+    ExpiresByType image/jpeg "now plus 1 month"
+    ExpiresByType image/jp2 "now plus 1 month"
+    ExpiresByType image/webp "now plus 1 month"
+    ExpiresByType image/pipeg "now plus 1 month"
+    ExpiresByType image/png "now plus 1 month"
+    ExpiresByType image/svg+xml "now plus 1 month"
+    ExpiresByType image/tiff "now plus 1 month"
+    ExpiresByType image/x-icon "now plus 1 month"
+    ExpiresByType image/ico "now plus 1 month"
+    ExpiresByType image/icon "now plus 1 month"
+    ExpiresByType text/ico "now plus 1 month"
+    ExpiresByType application/ico "now plus 1 month"
+    ExpiresByType image/vnd.wap.wbmp "now plus 1 month"
+
+    ## Font files expiration: 1 week after request
+    ExpiresByType application/x-font-ttf "now plus 1 week"
+    ExpiresByType application/x-font-opentype "now plus 1 week"
+    ExpiresByType application/x-font-woff "now plus 1 week"
+    ExpiresByType font/woff2 "now plus 1 week"
+    ExpiresByType image/svg+xml "now plus 1 week"
+
+    ## Audio files expiration: 1 month after request
+    ExpiresByType audio/ogg "now plus 1 month"
+    ExpiresByType application/ogg "now plus 1 month"
+    ExpiresByType audio/basic "now plus 1 month"
+    ExpiresByType audio/mid "now plus 1 month"
+    ExpiresByType audio/midi "now plus 1 month"
+    ExpiresByType audio/mpeg "now plus 1 month"
+    ExpiresByType audio/mp3 "now plus 1 month"
+    ExpiresByType audio/x-aiff "now plus 1 month"
+    ExpiresByType audio/x-mpegurl "now plus 1 month"
+    ExpiresByType audio/x-pn-realaudio "now plus 1 month"
+    ExpiresByType audio/x-wav "now plus 1 month"
+
+    ## Movie files expiration: 1 month after request
+    ExpiresByType application/x-shockwave-flash "now plus 1 month"
+    ExpiresByType x-world/x-vrml "now plus 1 month"
+    ExpiresByType video/x-msvideo "now plus 1 month"
+    ExpiresByType video/mpeg "now plus 1 month"
+    ExpiresByType video/mp4 "now plus 1 month"
+    ExpiresByType video/quicktime "now plus 1 month"
+    ExpiresByType video/x-la-asf "now plus 1 month"
+    ExpiresByType video/x-ms-asf "now plus 1 month"
+</IfModule>
+

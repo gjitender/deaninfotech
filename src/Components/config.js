@@ -1,0 +1,12 @@
+class Config {
+    constructor() {
+        this.auth = {
+            baseurl : "https://www.deaninfotech.com/deaninfotechapi/public/api/",
+            Authorization : "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjQ5MjE2MTIzNmI2ZTMyNGI1YTU2MDU3N2Q1MDUzN2U1YTU2ZDJjNjg1MGZmNWFhNGJjMTEwNDBlMTIxNDU3NDgzZTQzYmRkYjg0MmY1NjJkIn0.eyJhdWQiOiIxIiwianRpIjoiNDkyMTYxMjM2YjZlMzI0YjVhNTYwNTc3ZDUwNTM3ZTVhNTZkMmM2ODUwZmY1YWE0YmMxMTA0MGUxMjE0NTc0ODNlNDNiZGRiODQyZjU2MmQiLCJpYXQiOjE1ODMzMTU1MTQsIm5iZiI6MTU4MzMxNTUxNCwiZXhwIjoxNjE0ODUxNTE0LCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.dFvJDbDSPuClOU2KMKcnfGFklEvOGv-GYBBgf6f4N3y3Fcy23CctljVvj-ZdGnoBCL1-TILxXoB6kToZofF-xUELI9s2RZynLDHOOM6jtTMxi_Q20_UIp8SB4kMtNT0MIuPFs9EtSQcepdw1JtdeAYpxarqoLz1GlIL6ipVyX0Uk9HJUQbxmp7cOWems5njEpSbWb2dcOXicCbLDuo-4XFJC1aIgE-jw9ncdjGP2YKTyYwqgtgDnuZvodNbFPJIt-NGMcg249YDzW8EFi7Hg7YnIhMP1c7e1z1TNEmBy3-wN5RRinUm4wvEk5Qr0RU7xocQYqRzfcr191pcePK8TvsJ204K-B2Cpydq-vRUJnLYiv4hc4PzseRMViW3Q8htTmJ9j11F3WyRpTEbtv207FobEb37b9QGjqjGV5nK3nND1hSajcSno5BvbtyrWWCIv55om2Pjy94wZmToD1ZsR75XtEjnbuen4b_d4zNEHbwm8-Iqc3KEB6ribKje4OIf6adC77z6gwGk8dgOS2BdCvwjTi8zwhO79FBl8pG0MzjtiCZ_o4SJktihmqJjenIILAl0HPNpQRQw6799y-UY9aQgIEybGNQd479hBZTxOUO75GiSBE1BFoHt0gWqQ5pdTBcyl6eYd-vs6d9ueGC9t7O10NjFWYMO6CMksBcLoyYA"
+        }
+    }
+}
+
+ 
+
+export default new Config();

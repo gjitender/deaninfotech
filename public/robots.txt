@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /deaninfotechapi/
+
+Sitemap: https://www.deaninfotech.com/sitemap.xml
